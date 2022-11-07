@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  size: 62.5%;
+}
+
+body {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.navbar {
+  background-color: #882599;
+
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+.navbar img {
+  height: 5rem;
+}
+.nav {
+  border-bottom: none;
+  color: #ffffff;
+}
+.nav-item a {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+}
+.nav-item a:active {
+  text-decoration: none;
+  color: #6d6a6a;
+}
+.nav-item a:hover {
+  text-decoration: none;
+  color: #6d6a6a;
+}
+
+.dropdown:hover {
+  text-decoration: none;
+  color: #6d6a6a;
+}
+
+.navbar-toggler-icon {
+  border: none;
+}
+.nav-link {
+  color: white;
+}
+
+.navbar-toggler {
+  margin-bottom: 1rem;
+  border: none;
+  color: #ffffff;
+}
+
+.offcanvas {
+  background-color: #882599;
+}
+
+/* News Section */
+.news-section {
+  margin: 10rem 2rem;
+  gap: 5rem;
+}
+
+.news-img {
+  height: 12rem;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+.card {
+  width: 15rem;
+  border-radius: 5px;
+  padding-right: 0rem;
+  padding-left: 0;
+  background-color: #ffffff7a;
+  -webkit-box-shadow: 12px 21px 73px -26px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 12px 21px 73px -26px rgba(0, 0, 0, 0.67);
+  box-shadow: 12px 21px 73px -26px rgba(0, 0, 0, 0.67);
+
+  transform-origin: 0 0;
+  transition: transform 0.25s, visibility 0.25s ease-in;
+
+  /* The Transformation */
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.author {
+  gap: 0.5rem;
+  align-items: center;
+  padding-left: 0.7rem;
+}
+.author img {
+  box-sizing: border-box;
+  border-radius: 50%;
+  --bs-gutter-x: 0rem;
+  height: 2rem;
+  max-width: 2rem;
+  align-self: center;
+  /* overflow: hidden;
+  margin: 0 2.5rem;
+  max-width: rem; */
+  /* height: 1rem; */
+  /* width: 0.1rem; */
+  /* font-size: 0.005rem; */
+}
+.author h3 {
+  font-size: 0.9rem;
+  text-align: start;
+  justify-self: center;
+}
+
+/* Footer */
+.footer {
+  background-color: #882599;
+  height: 15rem;
+}
+.menu {
+  padding-top: 2rem;
+}
+.menu-item a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+}
