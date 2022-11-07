@@ -61,24 +61,27 @@ body {
 /* News Section */
 .news-section {
   margin: 10rem 2rem;
-  gap: 5rem;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .news-img {
   height: 12rem;
   width: 100%;
   border-radius: 5px;
-  text-align: center;
 }
 .card {
+  justify-self: center;
   width: 15rem;
   border-radius: 5px;
   padding-right: 0rem;
   padding-left: 0;
+  margin-left: 5rem;
   background-color: #ffffff7a;
-  -webkit-box-shadow: 12px 21px 73px -26px rgba(0, 0, 0, 0.67);
-  -moz-box-shadow: 12px 21px 73px -26px rgba(0, 0, 0, 0.67);
-  box-shadow: 12px 21px 73px -26px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: 10px 10px 119px -60px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 119px -60px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 119px -60px rgba(0, 0, 0, 0.75);
 
   transform-origin: 0 0;
   transition: transform 0.25s, visibility 0.25s ease-in;
@@ -88,7 +91,7 @@ body {
 
 .card:hover {
   cursor: pointer;
-  transform: scale(1.15);
+  transform: scale(1.025);
 }
 
 .author {
