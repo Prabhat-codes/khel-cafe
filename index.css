@@ -60,7 +60,8 @@ body {
 
 /* News Section */
 .news-section {
-  margin: 10rem 2rem;
+  display: flex;
+  margin: 10rem 0 0 0;
   gap: 2.5rem;
   justify-content: center;
   align-items: center;
